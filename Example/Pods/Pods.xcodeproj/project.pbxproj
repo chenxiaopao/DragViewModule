@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06F62DF39450A0836C06CA6B7337B1A0 /* Pods-DragViewModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A4086E0CE0642D03C880D21A3E36F /* Pods-DragViewModule_Tests-dummy.m */; };
+		2E4BF8361E774D5AF3092003AEB8B670 /* DragViewModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E64866D4AEA754F886A80C0FE597BB /* DragViewModule-dummy.m */; };
+		337A10D1964FCB59C0E2E498FC297E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		55FB50A70CA1872A5F657EF7E3692D7D /* Pods-DragViewModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 564D0C64E792B0C86EDA6C1DB0DE4EE4 /* Pods-DragViewModule_Example-dummy.m */; };
+		583C65B0AD260E7D932CF2B2EEBA4689 /* Pods-DragViewModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 516752C8329E7AE901E7880A83CE3D3C /* Pods-DragViewModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A960FA6DC6E58670714F023A8D7A109B /* DragViewModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F31372804B51FB7A75BD72847AFD0E /* DragViewModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9F7262655131AA3842AD3E1E08A656B /* WMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F93A001557D380A2906C946FCDF4D /* WMDragView.m */; };
+		BB4F4F812FCD3DF9F00095622EF52E09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C0DC1A226C3FCF6C3A72D24EE65B4953 /* WMDragView.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A66565786526E3469F8E5B93C6FCE6 /* WMDragView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE392741225B38412F87C0D5E6A3A0E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F1F9725063D5FAF72799A4248BBCFADE /* Pods-DragViewModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B974AB1BD1AAC4226F6EAD9DF71B43A /* Pods-DragViewModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33AC52A170BA389CECC58342F296237F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99520551CA9085C74D57A2B563C6880A;
+			remoteInfo = "Pods-DragViewModule_Example";
+		};
+		C219F765674FE6F5BB5CE3D1F17AC70B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB73D6DDA93D14E0FC09AB109720A638;
+			remoteInfo = DragViewModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5A4086E0CE0642D03C880D21A3E36F /* Pods-DragViewModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DragViewModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		18A9EACAF7A5479A90D07C94FD39D4E7 /* Pods-DragViewModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DragViewModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		26911C0521718DDD82D01194DFB1C055 /* Pods-DragViewModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DragViewModule_Tests-Info.plist"; sourceTree = "<group>"; };
+		272DBC2CFB60B7BE61B2847B5AF9240B /* Pods-DragViewModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DragViewModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		29B4FE99CD78D8AE81D697FA393A488D /* DragViewModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DragViewModule-Info.plist"; sourceTree = "<group>"; };
+		2B974AB1BD1AAC4226F6EAD9DF71B43A /* Pods-DragViewModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DragViewModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		2D7BBD575BA28EE63FBD173FDC8E0314 /* Pods-DragViewModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DragViewModule_Example.modulemap"; sourceTree = "<group>"; };
+		30F31372804B51FB7A75BD72847AFD0E /* DragViewModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragViewModule-umbrella.h"; sourceTree = "<group>"; };
+		4074DE821A61DCB700A71B4E9BB84442 /* Pods_DragViewModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragViewModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		516752C8329E7AE901E7880A83CE3D3C /* Pods-DragViewModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DragViewModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		564D0C64E792B0C86EDA6C1DB0DE4EE4 /* Pods-DragViewModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DragViewModule_Example-dummy.m"; sourceTree = "<group>"; };
+		6A4F93A001557D380A2906C946FCDF4D /* WMDragView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMDragView.m; path = DragViewModule/Classes/WMDragView/WMDragView.m; sourceTree = "<group>"; };
+		74CE9193C327BFEDC038013B35D2894B /* DragViewModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DragViewModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6799BF721A9AEA0CE19FEA536950A5 /* Pods-DragViewModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DragViewModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8872312FEAE80A12CDA85F28767DCD16 /* DragViewModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DragViewModule.modulemap; sourceTree = "<group>"; };
+		8F7C1207DF5284E1FAA0AF68D6779F16 /* Pods-DragViewModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DragViewModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95136B6BA237482F8D41A0CBFB8A4765 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		98B73816C5D568EE2CA6C29B6633ABB7 /* DragViewModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragViewModule-prefix.pch"; sourceTree = "<group>"; };
+		9BB72D0CD176E8375A7FBD4D09D0C448 /* DragViewModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragViewModule.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F2F4D0D1E3B6A79E77C7A4D3B768403 /* Pods-DragViewModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DragViewModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE75303FCE07F3E9792FC4B7C896A0EA /* Pods-DragViewModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DragViewModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AEE636B27927F9B813B02CEA6C32A18A /* Pods-DragViewModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DragViewModule_Example-Info.plist"; sourceTree = "<group>"; };
+		C9064C7DCCEB721084F1EDDA0966A303 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCFC7BA556C99464346803598FB937BE /* Pods-DragViewModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DragViewModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E4A66565786526E3469F8E5B93C6FCE6 /* WMDragView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMDragView.h; path = DragViewModule/Classes/WMDragView/WMDragView.h; sourceTree = "<group>"; };
+		E68871444817A8479FBE83E121E9BF89 /* DragViewModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DragViewModule.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		E86E479AF90F84B615A9207445DE9549 /* Pods-DragViewModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DragViewModule_Tests.modulemap"; sourceTree = "<group>"; };
+		EF1C9FBE89D4DAAF0029A06B641ACB0E /* Pods-DragViewModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DragViewModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4E64866D4AEA754F886A80C0FE597BB /* DragViewModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragViewModule-dummy.m"; sourceTree = "<group>"; };
+		F71DE0131893E301A1A6C3551A50308F /* Pods_DragViewModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragViewModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC979DF81A01C32AA136E8635842A15C /* Pods-DragViewModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DragViewModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C32E5426B88B368C17540BF691D39C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337A10D1964FCB59C0E2E498FC297E65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		295E7A8F05C1B6B9BE30069B5F804B83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4F4F812FCD3DF9F00095622EF52E09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69166BB519F1053E3FEE84FA0B1FF5C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE392741225B38412F87C0D5E6A3A0E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B02A5E873B636EA473F8ED12D39F35C /* Pods-DragViewModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2D7BBD575BA28EE63FBD173FDC8E0314 /* Pods-DragViewModule_Example.modulemap */,
+				EF1C9FBE89D4DAAF0029A06B641ACB0E /* Pods-DragViewModule_Example-acknowledgements.markdown */,
+				FC979DF81A01C32AA136E8635842A15C /* Pods-DragViewModule_Example-acknowledgements.plist */,
+				564D0C64E792B0C86EDA6C1DB0DE4EE4 /* Pods-DragViewModule_Example-dummy.m */,
+				AE75303FCE07F3E9792FC4B7C896A0EA /* Pods-DragViewModule_Example-frameworks.sh */,
+				AEE636B27927F9B813B02CEA6C32A18A /* Pods-DragViewModule_Example-Info.plist */,
+				2B974AB1BD1AAC4226F6EAD9DF71B43A /* Pods-DragViewModule_Example-umbrella.h */,
+				DCFC7BA556C99464346803598FB937BE /* Pods-DragViewModule_Example.debug.xcconfig */,
+				7E6799BF721A9AEA0CE19FEA536950A5 /* Pods-DragViewModule_Example.release.xcconfig */,
+			);
+			name = "Pods-DragViewModule_Example";
+			path = "Target Support Files/Pods-DragViewModule_Example";
+			sourceTree = "<group>";
+		};
+		46B8718128018156C9CAAE415D45DBD0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8872312FEAE80A12CDA85F28767DCD16 /* DragViewModule.modulemap */,
+				9BB72D0CD176E8375A7FBD4D09D0C448 /* DragViewModule.xcconfig */,
+				F4E64866D4AEA754F886A80C0FE597BB /* DragViewModule-dummy.m */,
+				29B4FE99CD78D8AE81D697FA393A488D /* DragViewModule-Info.plist */,
+				98B73816C5D568EE2CA6C29B6633ABB7 /* DragViewModule-prefix.pch */,
+				30F31372804B51FB7A75BD72847AFD0E /* DragViewModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DragViewModule";
+			sourceTree = "<group>";
+		};
+		52A5C6C20B54CAD91FE4109E42822119 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B02A5E873B636EA473F8ED12D39F35C /* Pods-DragViewModule_Example */,
+				5C6A01041A4AD69EA1E1A6076A5619B1 /* Pods-DragViewModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5C6A01041A4AD69EA1E1A6076A5619B1 /* Pods-DragViewModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E86E479AF90F84B615A9207445DE9549 /* Pods-DragViewModule_Tests.modulemap */,
+				8F7C1207DF5284E1FAA0AF68D6779F16 /* Pods-DragViewModule_Tests-acknowledgements.markdown */,
+				9F2F4D0D1E3B6A79E77C7A4D3B768403 /* Pods-DragViewModule_Tests-acknowledgements.plist */,
+				0B5A4086E0CE0642D03C880D21A3E36F /* Pods-DragViewModule_Tests-dummy.m */,
+				26911C0521718DDD82D01194DFB1C055 /* Pods-DragViewModule_Tests-Info.plist */,
+				516752C8329E7AE901E7880A83CE3D3C /* Pods-DragViewModule_Tests-umbrella.h */,
+				272DBC2CFB60B7BE61B2847B5AF9240B /* Pods-DragViewModule_Tests.debug.xcconfig */,
+				18A9EACAF7A5479A90D07C94FD39D4E7 /* Pods-DragViewModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-DragViewModule_Tests";
+			path = "Target Support Files/Pods-DragViewModule_Tests";
+			sourceTree = "<group>";
+		};
+		6E91ECCEC0B0B83DF51D56DD46A954B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88BEA53CE895805FB8FAC114F7B9E47B /* DragViewModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		88BEA53CE895805FB8FAC114F7B9E47B /* DragViewModule */ = {
+			isa = PBXGroup;
+			children = (
+				E4A66565786526E3469F8E5B93C6FCE6 /* WMDragView.h */,
+				6A4F93A001557D380A2906C946FCDF4D /* WMDragView.m */,
+				FF0F1023A5EDCDAD27AE82FED6C495F3 /* Pod */,
+				46B8718128018156C9CAAE415D45DBD0 /* Support Files */,
+			);
+			name = DragViewModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6E91ECCEC0B0B83DF51D56DD46A954B2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D576BA7CF1BAB921AF9FEEB4CC08B7E6 /* Products */,
+				52A5C6C20B54CAD91FE4109E42822119 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D576BA7CF1BAB921AF9FEEB4CC08B7E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74CE9193C327BFEDC038013B35D2894B /* DragViewModule.framework */,
+				4074DE821A61DCB700A71B4E9BB84442 /* Pods_DragViewModule_Example.framework */,
+				F71DE0131893E301A1A6C3551A50308F /* Pods_DragViewModule_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF0F1023A5EDCDAD27AE82FED6C495F3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E68871444817A8479FBE83E121E9BF89 /* DragViewModule.podspec */,
+				C9064C7DCCEB721084F1EDDA0966A303 /* LICENSE */,
+				95136B6BA237482F8D41A0CBFB8A4765 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07D55B8AA1F58C5C20F92327BEF81828 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A960FA6DC6E58670714F023A8D7A109B /* DragViewModule-umbrella.h in Headers */,
+				C0DC1A226C3FCF6C3A72D24EE65B4953 /* WMDragView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32C78E0B9CEF22554908C31B08DC053 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583C65B0AD260E7D932CF2B2EEBA4689 /* Pods-DragViewModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84ABB5E7BB9D3493FEAD00FD6758208 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F9725063D5FAF72799A4248BBCFADE /* Pods-DragViewModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7DFD0CB685C96A5889B7AE26EB860A09 /* Pods-DragViewModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE6F974025E683041919949C739AF90 /* Build configuration list for PBXNativeTarget "Pods-DragViewModule_Tests" */;
+			buildPhases = (
+				A32C78E0B9CEF22554908C31B08DC053 /* Headers */,
+				79062D8479D701EC749721DA5B3040E5 /* Sources */,
+				69166BB519F1053E3FEE84FA0B1FF5C4 /* Frameworks */,
+				C5F26A7E8AD39CD8653B56842E257657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C0DE637D4E5B3EF72864EAC2FD0D8D /* PBXTargetDependency */,
+			);
+			name = "Pods-DragViewModule_Tests";
+			productName = "Pods-DragViewModule_Tests";
+			productReference = F71DE0131893E301A1A6C3551A50308F /* Pods_DragViewModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99520551CA9085C74D57A2B563C6880A /* Pods-DragViewModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826613A95CA6531E26F7A82AA839D5AF /* Build configuration list for PBXNativeTarget "Pods-DragViewModule_Example" */;
+			buildPhases = (
+				C84ABB5E7BB9D3493FEAD00FD6758208 /* Headers */,
+				A7A6A66759AA322C0F58D4487F9B1C17 /* Sources */,
+				0C32E5426B88B368C17540BF691D39C4 /* Frameworks */,
+				F6DA38890EC862D06433037C9EC973B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AF3A5AC26B0ED81AFB822B97897382 /* PBXTargetDependency */,
+			);
+			name = "Pods-DragViewModule_Example";
+			productName = "Pods-DragViewModule_Example";
+			productReference = 4074DE821A61DCB700A71B4E9BB84442 /* Pods_DragViewModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB73D6DDA93D14E0FC09AB109720A638 /* DragViewModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5F597CD3359E7F33100AC919D7926B /* Build configuration list for PBXNativeTarget "DragViewModule" */;
+			buildPhases = (
+				07D55B8AA1F58C5C20F92327BEF81828 /* Headers */,
+				7B4C95450F3BAD9D1D11BDEB1E2465FB /* Sources */,
+				295E7A8F05C1B6B9BE30069B5F804B83 /* Frameworks */,
+				5816BF721200194460B346FE2CCCFD4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragViewModule;
+			productName = DragViewModule;
+			productReference = 74CE9193C327BFEDC038013B35D2894B /* DragViewModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D576BA7CF1BAB921AF9FEEB4CC08B7E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB73D6DDA93D14E0FC09AB109720A638 /* DragViewModule */,
+				99520551CA9085C74D57A2B563C6880A /* Pods-DragViewModule_Example */,
+				7DFD0CB685C96A5889B7AE26EB860A09 /* Pods-DragViewModule_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5816BF721200194460B346FE2CCCFD4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F26A7E8AD39CD8653B56842E257657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DA38890EC862D06433037C9EC973B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79062D8479D701EC749721DA5B3040E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F62DF39450A0836C06CA6B7337B1A0 /* Pods-DragViewModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4C95450F3BAD9D1D11BDEB1E2465FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4BF8361E774D5AF3092003AEB8B670 /* DragViewModule-dummy.m in Sources */,
+				A9F7262655131AA3842AD3E1E08A656B /* WMDragView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A6A66759AA322C0F58D4487F9B1C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FB50A70CA1872A5F657EF7E3692D7D /* Pods-DragViewModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C0DE637D4E5B3EF72864EAC2FD0D8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DragViewModule_Example";
+			target = 99520551CA9085C74D57A2B563C6880A /* Pods-DragViewModule_Example */;
+			targetProxy = 33AC52A170BA389CECC58342F296237F /* PBXContainerItemProxy */;
+		};
+		80AF3A5AC26B0ED81AFB822B97897382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DragViewModule;
+			target = EB73D6DDA93D14E0FC09AB109720A638 /* DragViewModule */;
+			targetProxy = C219F765674FE6F5BB5CE3D1F17AC70B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03C46BF52009F256915DBBD3185BB3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB72D0CD176E8375A7FBD4D09D0C448 /* DragViewModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DragViewModule/DragViewModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragViewModule/DragViewModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DragViewModule/DragViewModule.modulemap";
+				PRODUCT_MODULE_NAME = DragViewModule;
+				PRODUCT_NAME = DragViewModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5C7C0670D46911B696300558C618CF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6799BF721A9AEA0CE19FEA536950A5 /* Pods-DragViewModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DragViewModule_Example/Pods-DragViewModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DragViewModule_Example/Pods-DragViewModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9055D59A92D3FADF8FDAC9A6E82457BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB72D0CD176E8375A7FBD4D09D0C448 /* DragViewModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DragViewModule/DragViewModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragViewModule/DragViewModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DragViewModule/DragViewModule.modulemap";
+				PRODUCT_MODULE_NAME = DragViewModule;
+				PRODUCT_NAME = DragViewModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99B23B428BF06FC719E6A4A57C646C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272DBC2CFB60B7BE61B2847B5AF9240B /* Pods-DragViewModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DragViewModule_Tests/Pods-DragViewModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DragViewModule_Tests/Pods-DragViewModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B625F7840F4B822BD9429E28CC6DADF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCFC7BA556C99464346803598FB937BE /* Pods-DragViewModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DragViewModule_Example/Pods-DragViewModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DragViewModule_Example/Pods-DragViewModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBE744E1051CD2C1F2FF2354F671DBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A9EACAF7A5479A90D07C94FD39D4E7 /* Pods-DragViewModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DragViewModule_Tests/Pods-DragViewModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DragViewModule_Tests/Pods-DragViewModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DE6F974025E683041919949C739AF90 /* Build configuration list for PBXNativeTarget "Pods-DragViewModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B23B428BF06FC719E6A4A57C646C48 /* Debug */,
+				DBE744E1051CD2C1F2FF2354F671DBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826613A95CA6531E26F7A82AA839D5AF /* Build configuration list for PBXNativeTarget "Pods-DragViewModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B625F7840F4B822BD9429E28CC6DADF2 /* Debug */,
+				5C7C0670D46911B696300558C618CF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5F597CD3359E7F33100AC919D7926B /* Build configuration list for PBXNativeTarget "DragViewModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9055D59A92D3FADF8FDAC9A6E82457BD /* Debug */,
+				03C46BF52009F256915DBBD3185BB3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

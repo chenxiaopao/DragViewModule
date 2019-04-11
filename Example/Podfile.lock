@@ -1,0 +1,16 @@
+PODS:
+  - DragViewModule (0.1.0)
+
+DEPENDENCIES:
+  - DragViewModule (from `../`)
+
+EXTERNAL SOURCES:
+  DragViewModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DragViewModule: e81406b8ef0998b648888ac1b6eb1aafde000e98
+
+PODFILE CHECKSUM: bd8f98053edf0ddc596322f57b83113f43479053
+
+COCOAPODS: 1.6.1

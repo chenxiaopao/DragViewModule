@@ -1,0 +1,22 @@
+{
+  "name": "DragViewModule",
+  "version": "0.1.0",
+  "summary": "A short description of DragViewModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chenxiaopao/DragViewModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenxiaopao": "158584983@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/chenxiaopao/DragViewModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DragViewModule/Classes/**/*"
+}
